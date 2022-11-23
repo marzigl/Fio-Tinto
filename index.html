@@ -5,53 +5,130 @@
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Exposição Virtual Fio Tinto</title>
-  <link rel="shortcut icon" href="TemplateData/favicon.ico">
+  <link rel="shortcut icon" href="TemplateData/Logo.webp">
   <link rel="stylesheet" href="TemplateData/style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-    rel="nofollow" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
-    crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="nofollow" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/9c82463302.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body style="background-color: #FDFEFF;">
   <!-- Nav Start -->
-  <nav class="navbar navbar-expand-lg d-none d-md-none d-lg-block py-0 shadow-sm navbar-dark bg-secondary'"
-    id="navbar-menu" style="background-color:#752222;">
+  <nav class="navbar navbar-expand-lg d-none d-md-none d-lg-block py-0 shadow-sm navbar-dark" id="navbar-menu" style="background-color:#752222;">
     <div class="container">
-      <span style="color:white;"><i class="fa-brands fa-html5 fa-2xl"></i></span>
+      <span><img class="rounded" src="TemplateData/Logo.webp" alt="Fio Tinto"></span>
       <ul class="nav nav-pills mr-auto">
-        <li class="nav-item">
-          <a id="Sobre" class="nav-link nav-link-menu text-light text-center px-md-3" role="button">
+        <li class="nav-item  ml-4">
+          <a class="nav-link nav-link-menu text-light text-center px-md-3 bold" role="button" href="#sobre">
             Sobre
           </a>
         </li>
         <li class="nav-item">
-          <a id="Contato" class="nav-link nav-link-menu text-light text-center px-md-3" role="button" href="#">
+          <a class="nav-link nav-link-menu text-light text-center px-md-3 bold" role="button" href="#contato">
             Contato
           </a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-menu text-light text-center px-md-3 bold" role="button" target="_blank" href="http://texteisfabris.ccae.ufpb.br/">
+            Acervo Digital Têxteis Fabris
+          </a>
+        </li>
       </ul>
-      <span id="Voltar" class="navbar-text text-light text-center mr-sm-2" role="button" href="#"
-        style="font-size: 0.8rem;">
-        <i class="fas fa-arrow-left fa-inverse"></i>
-        Voltar ao Acervo Digitail Têxteis Fabris
+      <span id="Voltar" class="navbar-text text-light text-center mr-sm-2 bold" role="button" style="font-size: 0.8rem;">
+        <a href="./visita.html">
+          <button class="btn px-4 bold" style="background-color:#FDFEFF; border-radius: 10px; font-size:0.8rem; color: #752222;">
+            Fazer visita virtual
+          </button>
+        </a>
       </span>
     </div>
   </nav>
   <!-- Nav End -->
   <!-- MainBody Start -->
-  <div class="container row my-auto mx-auto mt-5">
+  <div class="container row my-auto mx-auto mt-5 mb-5" style="width: 120%;">
     <div class="col my-auto">
       <ul>
-        <li><span style="color:#762222; font-size:2.8rem; font-weight:700;">Exposição Fio Tinto</span></li>
-        <li><span>Imersão em uma exposição sobre a Companhia de Tecidos Rio Tinto e sua produção têxtil</span></li>
-        <li><button class="btn text-light px-3" style="background-color:#752222; border-radius: 0.8rem; font-weight:700; font-size:0.8rem;">Fazer visita virtual</button></li>
+        <li>
+          <h1 class="bold" style="color:#762222; font-size:48px;">
+            Exposição Fio Tinto
+          </h1>
+        </li>
+        <li>
+          <h2 style="color:#762222; font-size: 24px; font-weight: 600;">
+            Design na produção têxtil da CTRT
+          </h2>
+        </li>
+        <li class="my-3">
+          <span style="color:#1F1F1F; font-size: 15px; font-weight: 500;">
+            Versão em ambiente de Realidade Virtual
+          </span>
+        </li>
+        <li class="ml-5 mt-5">
+          <a href="./visita.html">
+            <button class="btn text-light px-4 py-2 ml-5 mt-5 bold" style="background-color:#752222; border-radius: 10px; font-weight:700; font-size:0.8rem;">
+              Fazer visita virtual
+            </button>
+          </a>
+        </li>
       </ul>
     </div>
     <div class="col">
-      <img style="border-radius: 1.25rem;" src="TemplateData/BaseImage.png" alt="">
+      <img style="border-radius: 1.25rem;" src="TemplateData/BaseImage.png" alt="Fio Tinto: Design na produção têxtil da CTRT">
     </div>
   </div>
+  <div id="sobre" class="content container row my-auto mx-auto mt-5" style="height: auto;max-width: 70%;">
+    <h3 class="mt-5 bold" style="color:#762222; font-weight: 700;">
+      Sobre
+    </h3>
+    <hr class="mx-auto" style="height: 2px;color: #000000;background-color: #000000; max-width: 98%;">
+    <div class="mx-auto mb-5" style="max-width: 90%;">
+      <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus, augue et hendrerit gravida, erat sapien mattis nulla, id pellentesque lectus mi ut turpis. Sed sed accumsan nunc. Praesent eu turpis eget leo venenatis consectetur eget id mauris. Sed et mauris vel orci blandit varius quis eu quam. Vestibulum nec ullamcorper est. Integer convallis justo volutpat turpis placerat placerat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi in sagittis quam, in sagittis dolor. Etiam scelerisque sagittis elit, at accumsan libero vulputate vel. Praesent a mauris dolor. Suspendisse at leo nulla.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non urna purus. Nunc ex arcu, interdum id lobortis ut, facilisis eu elit. Cras feugiat, odio vitae sagittis congue, neque ipsum eleifend sapien, nec scelerisque nisl eros nec mauris. Vivamus tincidunt et leo feugiat feugiat. Sed vitae sapien interdum, vehicula nulla sit amet, rutrum mi. Aliquam erat volutpat. Ut fringilla magna aliquam, volutpat lorem sagittis, molestie sem.</p>
+      <p>Vivamus eu leo enim. Nunc semper vehicula dolor et placerat. Cras laoreet eros quis eros suscipit tristique. In egestas aliquet eros non efficitur. Pellentesque tincidunt nec dolor sagittis blandit. Nullam in dapibus ipsum. Etiam erat sapien, malesuada ac felis non, hendrerit pulvinar tortor. Sed sollicitudin augue at ultricies ullamcorper. Suspendisse eget ante interdum mi gravida tempor. In a orci nec mi elementum tempus accumsan eu nisi. Sed posuere aliquam elit non ultricies. Mauris finibus justo ac augue fermentum finibus. Proin consectetur venenatis ligula, finibus accumsan urna euismod eget. Vivamus mollis quam risus.</p>
+    </div>
+  </div>
+  <div id="contato" class="container row my-auto mx-auto mt-5" style="height: auto;max-width: 70%;">
+    <h3 class="bold" style="color:#762222;">
+      Contato
+    </h3>
+    <hr class="mx-auto" style="height: 2px;color: #000000;background-color: #000000; max-width: 98%;">
+    <div class="mx-auto" style="max-width: 90%;">
+      <p class="mt-5"><strong>Universidade Federal da Paraíba – Campus IV</strong></p>
+      <p>Centro de Ciências Aplicadas e Educação – CCAE</p>
+      <p>Curso de Bacharelado de Design – CDESIGN</p>
+      <p>Av. Santa Elizabete, s/n – Centro, 58297-000 – Rio Tinto, PB – Brasil</p>
+      <p>Telefone: (83) 3291-4502</p>
+      <p class="mb-4">Email: labprojetosddesign@gmail.com</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.709096387907!2d-35.07766598478167!3d-6.805198595081405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ad0f90361c90d7%3A0x65028040fa0c10f3!2sUFPB%20Campus%20IV%20-%20Rio%20Tinto!5e0!3m2!1spt-BR!2sbr!4v1669180641613!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mx-auto"></iframe>
+      <div class="row my-5">
+        <div class="col-10">
+          <img src="TemplateData/parceiros.webp" alt="Parceiros">
+        </div>
+        <div class="col my-auto">
+          <div class="row">
+            <img src="TemplateData/texteisfabris.webp" alt="Têxteis Fabris">
+          </div>
+          <div class="row">
+            <img src="TemplateData/icones-texteisfabris.webp" alt="Têxteis Fabris - icones">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="text-light mx-auto row" style="background-color:#752222;">
+    <hr class="mx-auto mt-5 mb-3" style="height: 0px;color: #F3FAFF;background-color: #F3FAFF; max-width: 75%; border: 2px solid #F3FAFF;">
+    <div class="row mx-auto mt-3" style="max-width: 65%;">
+      <div class="col ml-5">
+        <p class="mb-2 bold" style="font-size: 1.2rem;">Exposição Fio Tinto</p>
+        <p>Design na produção têxtil da CTRT</p>
+      </div>
+      <div class="col mx-auto mb-5">
+        <p>Criação do ambiente virtual por:</p>
+        <p>Márzio Glauco - Sistemas da Informação/UFPB</p>
+        <p>Sthephany Oliveira - Design/UFPB</p>
+      </div>
+    </div>
+  </footer>
   <!-- MainBody End -->
   <!-- Unity Canvas Start
   <div id="unity-container" class="unity-desktop" style="width: 80%;height: 80%;">
